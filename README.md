@@ -1,9 +1,11 @@
 # fonts-for-trails
 Fonts and how to obtain for making backcountry maps.  You can find the original git repo at [github.com/roblabs/fonts-for-trails](https://github.com/roblabs/fonts-for-trails)
 
+See the script [go.sh](./go.sh) for an example on how to use the command line tools.
+
 ---
 
-## Intro
+## Federal Fonts
 
 The [National Park Service](https://www.nps.gov/carto/app/#!/maps/symbols) and the [US Forest Service](https://data.fs.usda.gov/geodata/vector/index.php)
 both provide [TrueType](https://en.wikipedia.org/wiki/TrueType) Fonts that they use in their cartography.
@@ -50,17 +52,17 @@ You can find the fontreport in the folder [./fontreport](fontreport) for the
 
 ##### NPS Font Report
 
-* [esri_665.pdf](./fontreport/esri_665.pdf) - visitor assistive
+* [esri_665.pdf](./fontreport/esri_665.pdf) — visitor assistive
 * [esri_666.pdf](./fontreport/esri_666.pdf) — tour stops, road signs
-* [esri_667.pdf](./fontreport/esri_667.pdf) - shelters, cars, restrooms
-* [esri_668.pdf](./fontreport/esri_668.pdf) - recreation
+* [esri_667.pdf](./fontreport/esri_667.pdf) — shelters, cars, restrooms
+* [esri_668.pdf](./fontreport/esri_668.pdf) — recreation
 * [esri_669.pdf](./fontreport/esri_669.pdf) — campground, skiing
 
 ##### USFS Font Report
 
-* [FSPOD___.pdf](./fontreport/FSPOD___.pdf) - marshes & playas
+* [FSPOD___.pdf](./fontreport/FSPOD___.pdf) — marshes & playas
 * [USDAFS3_.pdf](./fontreport/USDAFS3_.pdf)
-* [Uslogo__.pdf](./fontreport/Uslogo__.pdf) - USDA, Forest Service & USGS logos
+* [Uslogo__.pdf](./fontreport/Uslogo__.pdf) — USDA, Forest Service & USGS logos
 * [usdafs2.pdf](./fontreport/usdafs2.pdf)
 * [usdafs30.pdf](./fontreport/usdafs30.pdf)
 
@@ -118,3 +120,5 @@ svg-caster --svg-font USDAFS3_.svg \
 * [RoboFont](https://robofont.com) — Glyph editor and Python engine
 * [Glyphr Studio](http://glyphrstudio.com) — Web & Electron based Font Editor
 * [Glyphter](https://glyphter.com) — The SVG Font Machine
+
+# Discussion fonts & icons on [Caltopo.com](http://help.caltopo.com/discussions/maps/1330-icons
