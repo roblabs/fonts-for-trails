@@ -9,18 +9,22 @@ The [National Park Service](https://www.nps.gov/carto/app/#!/maps/symbols) and t
 both provide [TrueType](https://en.wikipedia.org/wiki/TrueType) Fonts that they use in their cartography.
 
 * The NPS Fonts are stored in [Zip Archive File ESRI.style](https://www.nps.gov/carto/hfc/carto/media/Esri_style_NPS_2012.zip) (400 KB)
-  * Copyright is `Copyright (c) 2012 by Esri, Inc. All rights reserved.` 
+  * Copyright is `Copyright (c) 2012 by Esri, Inc. All rights reserved.`
   * Designer is `Tom Patterson NPS and ESRI Cartography and Symbology`
 * The USFS Fonts are stored in an archive called [Layer files and FSTopo fonts](https://data.fs.usda.gov/geodata/vector/fstopo/FSTopo_Layer_files_and_fonts.zip) (517 KB)
   * No copyright info
 
 ## How To Use Federal Fonts
 
-Using these `.ttf` files out of the zip archive is a little chaotic.  In macOS, if you double click on file, the native app FontBook will display a summary of the [glyphs](https://en.wikipedia.org/wiki/Glyph), but the character set mapping is not clear.  A character set map can be thought of as
+Using these `.ttf` files out of the zip archive is a little chaotic.  In macOS, if you double click on file, the native app FontBook will display a summary of the [glyphs](https://en.wikipedia.org/wiki/Glyph).
+
+<img alt="README-usdafix3.png" src="assets/README-usdafix3.png" width="50%" height="" >
+
+But the character set mapping is not clear.  A character set map can be thought of as
 
 > when I type `a` on the keyboard, I expect an `a` to be typed in my text editor
 
-But for these NPS & USFS fonts, when I type an `a` what should I expect to get?  How is Trailhead or Hospital mapped to the QWERTY Keyboard?
+But for these NPS & USFS fonts, when I type an `a` what should I expect to get?  How is campground <img alt="campground.svg" src="assets/campground.svg" width="5%" height="" > or snowmobile <img alt="snowmobile.svg" src="assets/snowmobile.svg" width="5%" height="" > mapped to the QWERTY Keyboard?
 
 ---
 
@@ -34,14 +38,17 @@ Enter [fontreport](https://github.com/googlei18n/fontreport)
 fontreport USDAFS3_.TTF USDAFS3_.pdf
 ```
 
-generates a report that looks similar to 
+generates a report that looks similar to
 
+
+<img alt="README-fontreport.png" src="assets/README-fontreport.png" width="50%" height="" >
 ---
 
 ### Glypher Studio
 
 [Glypher Studio](http://glyphrstudio.com/online/) allows you upload a `.ttf` and download an OTF or SVG Font.  Glypher Studio also gives you the character set map.
 
+<img alt="README-glypher-studio.png" src="assets/README-glypher-studio.png" width="50%" height="" >
 
 ---
 
@@ -49,6 +56,7 @@ generates a report that looks similar to
 
 [RoboFont](https://robofont.com) is a Glyph editor along with a bonus Python engine for scripting.  Incredibly powerful stuff.
 
+<img alt="README-robofont.png" src="assets/README-robofont.png" width="" height="" >
 
 ---
 
@@ -68,13 +76,15 @@ ttf2svg USDAFS3_.TTF USDAFS3_.svg
 
 #### `svg-caster`
 
-`svg-caster` converts a SVG Font to separte SVG files. 
+`svg-caster` converts a SVG Font to separte SVG files.
 
 ```
 mkdir svg-caster
 svg-caster --svg-font USDAFS3_.svg \
      --out-svg svg-caster
 ```
+
+<img alt="README-svg-caster.png" src="assets/README-svg-caster.png" width="20%" height="" >
 
 ---
 
