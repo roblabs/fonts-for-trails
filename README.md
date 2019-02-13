@@ -109,7 +109,7 @@ svg-caster --svg-font USDAFS3_.svg \
      --out-svg svg-caster
 ```
 
-<img alt="README-svg-caster.png" src="assets/README-svg-caster.png" width="20%" height="" >
+<img alt="README-svg-caster.png" src="assets/README-svg-caster.png" width="10%" height="" >
 
 ---
 
@@ -121,4 +121,4 @@ svg-caster --svg-font USDAFS3_.svg \
 * [Glyphr Studio](http://glyphrstudio.com) — Web & Electron based Font Editor
 * [Glyphter](https://glyphter.com) — The SVG Font Machine
 
-* Discussion fonts & icons on [Caltopo.com](http://help.caltopo.com/discussions/maps/1330-icons
+* Discussion fonts & icons on [Caltopo.com](http://help.caltopo.com/discussions/maps/1330-icons)
