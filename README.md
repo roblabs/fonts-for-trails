@@ -1,5 +1,5 @@
 # fonts-for-trails
-Fonts and how to obtain for making backcountry maps.  
+Fonts and how to obtain for making backcountry maps.  You can find the original git repo at [github.com/roblabs/fonts-for-trails](https://github.com/roblabs/fonts-for-trails)
 
 ---
 
@@ -24,7 +24,10 @@ But the character set mapping is not clear.  A character set map can be thought 
 
 > when I type `a` on the keyboard, I expect an `a` to be typed in my text editor
 
-But for these NPS & USFS fonts, when I type an `a` what should I expect to get?  How is campground <img alt="campground.svg" src="assets/campground.svg" width="5%" height="" > or snowmobile <img alt="snowmobile.svg" src="assets/snowmobile.svg" width="5%" height="" > mapped to the QWERTY Keyboard?
+But for these NPS & USFS fonts, when I type an `a` what should I expect to get?  How do you map these to the QWERTY Keyboard?
+
+<img alt="campground.svg" src="assets/campground.svg" width="5%" height="" > campground  <br>
+<img alt="snowmobile.svg" src="assets/snowmobile.svg" width="5%" height="" > snowmobile  
 
 ---
 
@@ -41,14 +44,34 @@ fontreport USDAFS3_.TTF USDAFS3_.pdf
 generates a report that looks similar to
 
 
-<img alt="README-fontreport.png" src="assets/README-fontreport.png" width="50%" height="" >
+<img alt="README-fontreport.png" src="assets/README-fontreport.png" width="33%" height="" >
+
+You can find the fontreport in the folder [./fontreport](fontreport) for the
+
+##### NPS Font Report
+
+* [esri_665.pdf](./fontreport/esri_665.pdf) - visitor assistive
+* [esri_666.pdf](./fontreport/esri_666.pdf) — tour stops, road signs
+* [esri_667.pdf](./fontreport/esri_667.pdf) - shelters, cars, restrooms
+* [esri_668.pdf](./fontreport/esri_668.pdf) - recreation
+* [esri_669.pdf](./fontreport/esri_669.pdf) — campground, skiing
+
+##### USFS Font Report
+
+* [FSPOD___.pdf](./fontreport/FSPOD___.pdf) - marshes & playas
+* [USDAFS3_.pdf](./fontreport/USDAFS3_.pdf)
+* [Uslogo__.pdf](./fontreport/Uslogo__.pdf) - USDA, Forest Service & USGS logos
+* [usdafs2.pdf](./fontreport/usdafs2.pdf)
+* [usdafs30.pdf](./fontreport/usdafs30.pdf)
+
+
 ---
 
 ### Glypher Studio
 
 [Glypher Studio](http://glyphrstudio.com/online/) allows you upload a `.ttf` and download an OTF or SVG Font.  Glypher Studio also gives you the character set map.
 
-<img alt="README-glypher-studio.png" src="assets/README-glypher-studio.png" width="50%" height="" >
+<img alt="README-glypher-studio.png" src="assets/README-glypher-studio.png" width="33%" height="" >
 
 ---
 
@@ -56,7 +79,7 @@ generates a report that looks similar to
 
 [RoboFont](https://robofont.com) is a Glyph editor along with a bonus Python engine for scripting.  Incredibly powerful stuff.
 
-<img alt="README-robofont.png" src="assets/README-robofont.png" width="" height="" >
+<img alt="README-robofont.png" src="assets/README-robofont.png" width="50%" height="" >
 
 ---
 
