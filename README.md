@@ -10,10 +10,10 @@ See the script [go.sh](./go.sh) for an example on how to use the command line to
 The [National Park Service](https://www.nps.gov/carto/app/#!/maps/symbols) and the [US Forest Service](https://data.fs.usda.gov/geodata/vector/index.php)
 both provide [TrueType](https://en.wikipedia.org/wiki/TrueType) Fonts that they use in their cartography.
 
-* The NPS Fonts are stored in [Zip Archive File ESRI.style](https://www.nps.gov/carto/hfc/carto/media/Esri_style_NPS_2012.zip) (400 KB)
+* The NPS Fonts are stored in [Zip Archive File ESRI.style](https://www.nps.gov/carto/hfc/carto/media/Esri_style_NPS_2012.zip) `(400 KB)`
   * Copyright is `Copyright (c) 2012 by Esri, Inc. All rights reserved.`
   * Designer is `Tom Patterson NPS and ESRI Cartography and Symbology`
-* The USFS Fonts are stored in an archive called [Layer files and FSTopo fonts](https://data.fs.usda.gov/geodata/vector/fstopo/FSTopo_Layer_files_and_fonts.zip) (517 KB)
+* The USFS Fonts are stored in an archive called [Layer files and FSTopo fonts](https://data.fs.usda.gov/geodata/vector/fstopo/FSTopo_Layer_files_and_fonts.zip) `(517 KB)`
   * No copyright info
 
 ## How To Use Federal Fonts
@@ -121,4 +121,4 @@ svg-caster --svg-font USDAFS3_.svg \
 * [Glyphr Studio](http://glyphrstudio.com) — Web & Electron based Font Editor
 * [Glyphter](https://glyphter.com) — The SVG Font Machine
 
-# Discussion fonts & icons on [Caltopo.com](http://help.caltopo.com/discussions/maps/1330-icons
+* Discussion fonts & icons on [Caltopo.com](http://help.caltopo.com/discussions/maps/1330-icons
