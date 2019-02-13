@@ -69,9 +69,9 @@ You can find the `fontreport` in the folder [fontreport](https://github.com/robl
 
 ---
 
-### Glypher Studio
+### Glyphr Studio
 
-[Glypher Studio](http://glyphrstudio.com/online/) allows you upload a `.ttf` and download an OTF or SVG Font.  Glypher Studio also gives you the character set map.
+[Glyphr Studio](http://glyphrstudio.com/online/) allows you upload a `.ttf` and download an OTF or SVG Font.  Glypher Studio also gives you the character set map.
 
 <img alt="README-glypher-studio.png" src="assets/README-glypher-studio.png" width="33%" height="" >
 
