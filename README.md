@@ -48,7 +48,7 @@ generates a report that looks similar to
 
 <img alt="README-fontreport.png" src="assets/README-fontreport.png" width="33%" height="" >
 
-You can find the fontreport in the folder [./fontreport](fontreport) for the
+You can find the `fontreport` in the folder [fontreport](https://github.com/roblabs/fonts-for-trails/tree/master/fontreport)
 
 ##### NPS Font Report
 
@@ -61,8 +61,8 @@ You can find the fontreport in the folder [./fontreport](fontreport) for the
 ##### USFS Font Report
 
 * [FSPOD___.pdf](./fontreport/FSPOD___.pdf) — marshes & playas
-* [USDAFS3_.pdf](./fontreport/USDAFS3_.pdf)
 * [Uslogo__.pdf](./fontreport/Uslogo__.pdf) — USDA, Forest Service & USGS logos
+* [USDAFS3_.pdf](./fontreport/USDAFS3_.pdf)
 * [usdafs2.pdf](./fontreport/usdafs2.pdf)
 * [usdafs30.pdf](./fontreport/usdafs30.pdf)
 
